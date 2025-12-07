@@ -4,7 +4,7 @@
 let contactPage = document.getElementById('contact-page')
 let submitButton = document.getElementById('submit-button')
 
-submitButton.addEventListener('click', (e) => {
+submitButton.addEventListener('click', () => {
     const p = document.createElement('p')
     p.style.fontSize = '24px'
     p.innerText = "Thank you for your message"

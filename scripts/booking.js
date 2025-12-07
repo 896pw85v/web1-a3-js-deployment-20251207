@@ -2,11 +2,8 @@
 // useful variables might be: the cost per day, the number of days selected, and elements on the screen that will be clicked or will need to be modified. 
 // Do any of these variables need to be initialized when the page is loaded? 
 // When do they need to be reset or updated?
-let constPerDay = 0
 let daysSelected = 0
 let dailyRate = 35
-let cost = 0
-let clicked = document.querySelectorAll('.clicked')
 let clearButton = document.getElementById('clear-button')
 let halfdayButton = document.getElementById('half')
 let fulldayButton = document.getElementById('full')
